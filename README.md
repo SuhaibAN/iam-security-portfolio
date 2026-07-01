@@ -1,108 +1,52 @@
 # IAM Security Portfolio
 
-This portfolio demonstrates practical Identity and Access Management (IAM), Identity Governance and Administration (IGA), and Microsoft security concepts through hands-on labs, simulations, diagrams, and documentation.
+This portfolio demonstrates practical Identity and Access Management (IAM), Identity Governance and Administration (IGA), and Microsoft security concepts through labs, case studies, policies, workflows, and documentation.
 
 ## Focus Areas
 
 - Identity and Access Management
 - Microsoft Entra ID
 - Okta Workforce IAM
-- SailPoint Identity Governance
+- SailPoint-style Identity Governance
 - Multi-Factor Authentication
 - Role-Based Access Control
-- Joiner / Mover / Leaver Processes
+- Joiner / Mover / Leaver Lifecycle
 - Access Requests and Approvals
 - Access Reviews and Certifications
+- Privileged Access Control
 - Security Operations Documentation
 
-## Featured Projects
+## Featured Repositories
 
-### 1. Okta Workforce IAM Lab
+### Okta Workforce IAM Lab
 
-Hands-on IAM lab covering user lifecycle management, group rules, MFA policies, SSO concepts, RBAC, and access control documentation.
+Hands-on IAM lab covering Okta user lifecycle management, group rules, MFA policies, SSO concepts, RBAC, access reviews, and exception access.
 
-**Key Skills Demonstrated:**
-- User and group management
-- Department-based group assignment
-- MFA and authentication policies
-- Application access control
-- Joiner / mover / leaver concepts
-- IAM documentation
+[View Repository](https://github.com/SuhaibAN/okta-workforce-iam-lab)
 
-**Repository:**  
-[Okta Workforce IAM Lab](https://github.com/YOUR-USERNAME/okta-workforce-iam-lab)
+### Identity Governance / SailPoint-Style Simulation
 
----
+Identity governance simulation covering joiner, mover, leaver processes, access requests, approvals, entitlement mapping, access reviews, certifications, and revocation.
 
-### 2. Identity Governance / SailPoint Simulation
+[View Repository](https://github.com/SuhaibAN/identity-governance-sailpoint-simulation)
 
-Identity governance simulation covering joiner, mover, and leaver workflows, access requests, approvals, entitlement mapping, access reviews, certifications, and revocation.
+## Case Studies
 
-**Key Skills Demonstrated:**
-- Identity governance concepts
-- Access request workflow design
-- Role and entitlement mapping
-- Access review process
-- Certification and revocation documentation
-- Risk-based access control thinking
+- [New User Access](case-studies/new-user-access.md)
+- [Department Change Access Review](case-studies/department-change.md)
+- [Termination Access Removal](case-studies/termination-access-removal.md)
 
-**Repository:**  
-[Identity Governance / SailPoint Simulation](https://github.com/YOUR-USERNAME/identity-governance-sailpoint-simulation)
+## IAM Workflows
 
----
+- [Joiner / Mover / Leaver Lifecycle Flow](diagrams/jml-lifecycle-flow.md)
+- [Access Request Workflow](diagrams/access-request-workflow.md)
+- [Access Review Process](diagrams/access-review-process.md)
 
-## IAM Case Studies
+## Security Policies
 
-### Case Study 1: New Employee Access
-
-A new Finance employee joins the company and requires access to standard Finance applications.
-
-**Process:**
-1. User account is created.
-2. Department attribute is assigned as Finance.
-3. User is automatically added to the Finance group.
-4. Finance applications are assigned based on group membership.
-5. MFA policy is enforced.
-6. Access is reviewed periodically.
-
-**Security Value:**
-This reduces manual access errors, improves onboarding speed, and ensures access is based on business role.
-
----
-
-### Case Study 2: Employee Department Change
-
-An employee moves from HR to IT and requires updated access.
-
-**Process:**
-1. Department attribute changes from HR to IT.
-2. HR access is removed.
-3. IT access is assigned.
-4. Privileged access requires additional approval.
-5. MFA is enforced for sensitive applications.
-6. Access changes are documented.
-
-**Security Value:**
-This reduces excessive access and supports least privilege.
-
----
-
-### Case Study 3: Employee Termination
-
-An employee leaves the company and all access must be removed.
-
-**Process:**
-1. User account is deactivated.
-2. Application access is removed.
-3. Group memberships are revoked.
-4. Active sessions are terminated.
-5. Access removal is documented.
-6. Manager or security team confirms completion.
-
-**Security Value:**
-This reduces the risk of orphaned accounts and unauthorized access.
-
----
+- [MFA Policy](policies/mfa-policy.md)
+- [Access Review Policy](policies/access-review-policy.md)
+- [Privileged Access Policy](policies/privileged-access-policy.md)
 
 ## Tools and Technologies
 
@@ -121,4 +65,10 @@ This reduces the risk of orphaned accounts and unauthorized access.
 
 ## Portfolio Goal
 
-The goal of this portfolio is to demonstrate practical understanding of IAM, identity governance, access control, and security operations concepts relevant to Security Analyst, IAM Analyst, Microsoft 365 Administrator, and Identity Governance roles.
+The goal of this portfolio is to demonstrate practical understanding of IAM, identity governance, access control, and security operations concepts relevant to:
+
+- IAM Analyst
+- Security Analyst
+- Identity Governance Analyst
+- Microsoft 365 Administrator
+- Cybersecurity Analyst
