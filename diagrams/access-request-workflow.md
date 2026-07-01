@@ -1,17 +1,19 @@
-# Joiner / Mover / Leaver Lifecycle Flow
+# Access Request Workflow
 
 ## Purpose
 
-This diagram documents the identity lifecycle process for employees joining, changing roles, or leaving the organization.
+This workflow documents how users request access and how approvals should be handled.
 
-## Lifecycle Stages
+## Workflow Steps
 
-| Stage | IAM Action | Security Goal |
-|---|---|---|
-| Joiner | Create account and assign role-based access | Provide correct access on time |
-| Mover | Update access based on new role or department | Remove old access and prevent privilege creep |
-| Leaver | Disable account and revoke access | Prevent unauthorized access |
+1. User submits access request.
+2. Manager reviews business need.
+3. Application owner reviews system risk.
+4. Security team reviews privileged or sensitive access.
+5. Access is approved or denied.
+6. Approved access is assigned.
+7. Request decision is documented.
 
-## Flow
+## Security Goal
 
-HR Event → Identity Update → Group Assignment → Application Access → MFA Enforcement → Access Review
+The goal is to ensure access is approved based on business need, least privilege, and risk.
